@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+<%@ Register src="Controls/LoginControl.ascx" tagname="LoginControl" tagprefix="uc" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>MNDayCare.com</title>
+    <link id="lnkReset" type="text/css" rel="stylesheet" href="~/styles/reset.css?v=20120807" runat="server" />
+    <link id="lnkGlobal" type="text/css" rel="stylesheet" href="~/styles/global.css?v=20120914" runat="server" />
+    <link id="lnkNaga" type="text/css" rel="stylesheet" href="~/styles/naga.css?v=20121110" runat="server" />    
+
+    <script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.2.min.js"></script>    
+    <asp:ContentPlaceHolder ID="DeleteThisPlaceHolder" runat="server">        
+        <script type="text/javascript" src='<%=ResolveClientUrl("~/scripts/jquery.json-2.3.min.js")%>'></script>   
+        <script type="text/javascript" src='<%=ResolveClientUrl("~/scripts/jquery.cookie.js")%>'></script>    
+    </asp:ContentPlaceHolder>
+    
+    <asp:ContentPlaceHolder ID="HC" runat="server"></asp:ContentPlaceHolder>
+    <script type="text/javascript">
+        function clearMessageBox() {
+            $('#messageBox').empty();
+        }
+    </script>
+</head>
+<body>
+    <form id="frmMain" runat="server">         
+        <div id="mastercontainer" runat="server">
+            <div id="masterheader" class="clearfix">
+                <div id="masterlogocontainer">
+                    <a href="~/" runat="server"><img src="images/logo.png" alt="MN-DayCare" runat="server" title="MN-DayCare" /></a>
+                </div>
+                <asp:Panel ID="pnlHeader" runat="server" style="height:78px;" CssClass="clearfix">
+                    <uc:LoginControl ID="ucLoginControl" runat="server" />   
+                    <div id="master_nav">
+                        <!-- This is for future use. When he wants header nav on top -->
+                    </div>                    
+                </asp:Panel>
+                <div id="masterheader_bottom"></div>
+            </div>
+            <div id="mastercontent" class="clearfix">
+                 <asp:ContentPlaceHolder id="MC" runat="server"></asp:ContentPlaceHolder>
+            </div>
+            <div id="masterfooter" class="clearfix">
+                <ul id="masterfooterlinks" class="clearfix">
+                    <li><a id="lnkHome" runat="server" href="#">mn-daycare.com</a> /</li>
+                    <li><a id="lnkTerms" runat="server" href="#">Terms and Conditions</a> /</li>
+                    <li><a id="lnkPrivacy" runat="server" href="#">Privacy Policy</a> /</li>
+                    <li><a id="lnkAboutUs" runat="server" href="#">About Us</a> /</li>
+                    <li><a id="lnkContact" runat="server" href="#">Contact</a> /</li>
+                    <li><a id="lnkParentResources" runat="server" href="#">Parent Resources</a> /</li>
+                    <li><a id="lnkProviderResources" runat="server" href="#">Provider Resources</a></li>
+                </ul>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

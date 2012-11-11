@@ -1,0 +1,11 @@
+﻿<asp:ValidationSummary runat="server" CssClass="errorBox" HeaderText="<h3>We're sorry, please fix the following issues...</h3><span></span>"/>
+<asp:RequiredFieldValidator runat="server" CssClass="vld_require" />
+<asp:RegularExpressionValidator runat="server" CssClass="vld_error" />
+<asp:CustomValidator runat="server" CssClass="vld_error" />
+
+<asp:GridView runat="server" CssClass="grid">
+    <HeaderStyle CssClass="header"/>    
+    <FooterStyle CssClass="footer" />
+    <SelectedRowStyle CssClass="hl" />
+    <PagerStyle HorizontalAlign="Right" CssClass="pager" />
+</asp:GridView>

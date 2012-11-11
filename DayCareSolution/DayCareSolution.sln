@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayCareLib", "DayCareLib\DayCareLib.csproj", "{3F584BFF-F68A-4C6E-92D5-11E416734F67}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DayCareWeb", "DayCareWeb\", "{5891D128-7579-4C36-835A-DBBF144A8F6C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{3F584BFF-F68A-4C6E-92D5-11E416734F67}|DayCareLib.dll;{218CF4C2-C457-43E4-9D1B-0880D10181FF}|XamarinStripe.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/DayCareWeb"
+		Debug.AspNetCompiler.PhysicalPath = "DayCareWeb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\DayCareWeb\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/DayCareWeb"
+		Release.AspNetCompiler.PhysicalPath = "DayCareWeb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\DayCareWeb\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "61886"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinStripe", "..\Xamarin Stripe Solution\XamarinStripe\XamarinStripe.csproj", "{218CF4C2-C457-43E4-9D1B-0880D10181FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F584BFF-F68A-4C6E-92D5-11E416734F67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F584BFF-F68A-4C6E-92D5-11E416734F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F584BFF-F68A-4C6E-92D5-11E416734F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F584BFF-F68A-4C6E-92D5-11E416734F67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5891D128-7579-4C36-835A-DBBF144A8F6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5891D128-7579-4C36-835A-DBBF144A8F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5891D128-7579-4C36-835A-DBBF144A8F6C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{5891D128-7579-4C36-835A-DBBF144A8F6C}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{218CF4C2-C457-43E4-9D1B-0880D10181FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{218CF4C2-C457-43E4-9D1B-0880D10181FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{218CF4C2-C457-43E4-9D1B-0880D10181FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{218CF4C2-C457-43E4-9D1B-0880D10181FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

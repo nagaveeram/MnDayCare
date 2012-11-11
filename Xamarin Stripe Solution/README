@@ -1,0 +1,9 @@
+XamarinStripe provides .NET bindings to process online payments with Stripe.com.
+
+	XamarinStripe/
+
+		Source code for the assembly.
+
+	PaymentTest/
+
+		Sample program using the library

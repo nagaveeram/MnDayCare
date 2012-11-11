@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="TesControl.ascx.cs" Inherits="Controls_TesControl" %>
+<asp:Button ID="btnClickMe" runat="server" Text="Click Me" onclick="btnClickMe_Click" />

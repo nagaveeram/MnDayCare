@@ -1,0 +1,115 @@
+﻿h1.resultsnear 
+{
+    padding:5px;
+    background-color:#81BD81;
+    text-align:center;
+}
+    
+.searchboxcontainer 
+{
+    float:left;
+    width:550px;
+    margin-right:20px;           
+    font-size:20px;
+    font-weight:bold;
+}
+        
+.searchbox 
+{
+    width:300px;
+    margin:100px auto;
+    line-height:36px;
+}
+        
+.searchbox .txt
+{
+    font-size:20px;
+    font-weight:bold;
+    width:90px;
+    padding:4px 2px;
+}
+        
+.mapcontainer 
+{
+    width:310px;
+    float:left;
+}
+    
+    
+    
+#gMapDiv 
+{ 
+    position:relative;
+    width:300px;
+    margin:0px auto 10px auto;
+    height:400px;
+    border:1px solid #eee;
+    box-shadow: 5px 5px 0px 0px #aaa;
+    border-radius: 5px;
+}
+    
+.srcontainer2
+{
+    margin:40px 0px;
+}
+    
+.grid .gvrow td 
+{
+    border-top:4px solid #81BD81;
+}
+    
+.gvcol1 
+{
+    width:100px;
+    white-space:nowrap;
+}
+    
+.gvcol1 img 
+{
+    width:100px;
+}
+    
+td.gvcol2
+{
+    padding:3px 10px;
+}
+    
+.gvtitle 
+{
+    font-size:18px;
+    font-weight:bold;
+}
+    
+.gvaddr 
+{
+    font-size:14px;
+    font-style:italic;
+}
+    
+.gvdesc 
+{
+    font-size:12px;
+}
+    
+.gvphone 
+{
+    font-size:18px;
+    font-weight:bold;
+    color:#888;
+}
+    
+.gvdetails 
+{
+    margin-top:5px;
+}
+    
+.gvpointonmap 
+{
+    margin-top:5px;
+}
+    
+.gvcol3 
+{
+    text-align:center;
+    width:200px;
+}  

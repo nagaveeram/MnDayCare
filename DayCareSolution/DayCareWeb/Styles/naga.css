@@ -1,0 +1,92 @@
+﻿/* Begin  Naga CSS */
+.GreenBar 
+{
+     background-color: #81BC80;
+     height: 19px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+.WaterMarkedTextBox
+        {
+            padding: 2px 2 2 2px;
+            border: 1px solid #BEBEBE;
+            background-color: #F0F8FF;
+            color: gray;
+            font-size: 8pt;
+            text-align: left;
+        }
+        .WaterMarkedTextBoxPSW
+        {
+            background-position: center;
+            height: 16px;
+            width: 168px;
+            padding: 2px 2 2 2px;
+            border: 1px solid #BEBEBE;
+            background-color: #F0F8FF;
+            color: white;
+            vertical-align: middle;
+            text-align: left;
+            background-image: url(Images/psw_wMark.png);
+            background-repeat: no-repeat;
+        }
+        .NormalTextBox
+        {
+            
+        }
+.clear {display:block; clear:both; line-height:0; height:0; margin:0; padding:0; overflow:hidden; font-size:.01em;}
+span 
+{
+    font-family:Georgia,"Times New Roman",Times,serif;
+    font-size: 20px;
+}
+.DCInfoName 
+{
+     text-align: center;
+     width: 100%;
+     font-size: 15px;
+     padding-top: 10px;
+     padding-bottom:7px;
+     font-weight: bold;
+}
+.DCInfoAddress 
+{
+    text-align: center;
+    font-size: 10px;
+     padding-top: 3px;
+     padding-bottom:1px;
+}
+.DCInfoPhone
+{
+    text-align: center;
+    font-size: 8px;
+     margin-top: 5px;
+     margin-bottom:4px;
+}
+.DCBio
+{
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 6px;
+}
+.normal
+{
+   font-family:Georgia,"Times New Roman",Times,serif;
+    font-size: 20px;
+     line-height: 35px;
+     text-align: center;
+}
+.GreenBox
+{
+    display: inline; 
+            background-color: #81BC80; color: #5B5B5B; text-align: center; white-space: normal;
+}
+.Large
+{
+    padding: 4px; width: 250px; height: 100px; font-size: 27px;            
+}
+.Medium
+{
+    padding: 2px; width: 100px; height: 50px; font-size: 17px;        
+ }
+
+/* End  Naga CSS */
